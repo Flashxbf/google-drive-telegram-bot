@@ -40,9 +40,8 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
 
         button = [
-            [
-             InlineKeyboardButton(text = 'Support Chat', url = SUPPORT_CHAT_LINK),
-             InlineKeyboardButton(text = 'Feature Request', url = "https://github.com/viperadnan-git/google-drive-telegram-bot/issues/new")
+            [             InlineKeyboardButton(text = 'Link Github', url = SUPPORT_CHAT_LINK),
+             InlineKeyboardButton(text = 'Project Lain', url = "https://gawr.floral.workers.dev")
             ],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
 
